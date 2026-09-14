@@ -3,6 +3,19 @@ name: arm-coding-worker
 description: Use when implementing features, fixing bugs, debugging, refactoring, changing APIs, UI, mobile, databases or infrastructure, upgrading dependencies, fixing builds, or testing and validating software in a repository. Applies to standalone execution and tasks delegated by ARM Harness; excludes purely conceptual engineering discussion.
 ---
 
+```
+@@@@@@   @@@@@@@   @@@@@@@@@@      @@@  @@@   @@@@@@   @@@@@@@   @@@  @@@  @@@@@@@@   @@@@@@    @@@@@@
+@@@@@@@@  @@@@@@@@  @@@@@@@@@@@     @@@  @@@  @@@@@@@@  @@@@@@@@  @@@@ @@@  @@@@@@@@  @@@@@@@   @@@@@@@
+@@!  @@@  @@!  @@@  @@! @@! @@!     @@!  @@@  @@!  @@@  @@!  @@@  @@!@!@@@  @@!       !@@       !@@
+!@!  @!@  !@!  @!@  !@! !@! !@!     !@!  @!@  !@!  @!@  !@!  @!@  !@!!@!@!  !@!       !@!       !@!
+@!@!@!@!  @!@!!@!   @!! !!@ @!@     @!@!@!@!  @!@!@!@!  @!@!!@!   @!@ !!@!  @!!!:!    !!@@!!    !!@@!!
+!!!@!!!!  !!@!@!    !@!   ! !@!     !!!@!!!!  !!!@!!!!  !!@!@!    !@!  !!!  !!!!!:     !!@!!!    !!@!!!
+!!:  !!!  !!: :!!   !!:     !!:     !!:  !!!  !!:  !!!  !!: :!!   !!:  !!!  !!:            !:!       !:!
+:!:  !:!  :!:  !:!  :!:     :!:     :!:  !:!  :!:  !:!  :!:  !:!  :!:  !:!  :!:           !:!       !:!
+::   :::  ::   :::  :::     ::      ::   :::  ::   :::  ::   :::   ::   ::   :: ::::  :::: ::   :::: ::
+ :   : :   :   : :   :      :        :   : :   :   : :   :   : :  ::    :   : :: ::   :: : :    :: : :
+```
+
 # ARM Coding Worker
 
 ## Mission and boundaries

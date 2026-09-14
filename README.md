@@ -1,5 +1,18 @@
 # ARM Coding Worker Skill
 
+```
+@@@@@@   @@@@@@@   @@@@@@@@@@      @@@  @@@   @@@@@@   @@@@@@@   @@@  @@@  @@@@@@@@   @@@@@@    @@@@@@
+@@@@@@@@  @@@@@@@@  @@@@@@@@@@@     @@@  @@@  @@@@@@@@  @@@@@@@@  @@@@ @@@  @@@@@@@@  @@@@@@@   @@@@@@@
+@@!  @@@  @@!  @@@  @@! @@! @@!     @@!  @@@  @@!  @@@  @@!  @@@  @@!@!@@@  @@!       !@@       !@@
+!@!  @!@  !@!  @!@  !@! !@! !@!     !@!  @!@  !@!  @!@  !@!  @!@  !@!!@!@!  !@!       !@!       !@!
+@!@!@!@!  @!@!!@!   @!! !!@ @!@     @!@!@!@!  @!@!@!@!  @!@!!@!   @!@ !!@!  @!!!:!    !!@@!!    !!@@!!
+!!!@!!!!  !!@!@!    !@!   ! !@!     !!!@!!!!  !!!@!!!!  !!@!@!    !@!  !!!  !!!!!:     !!@!!!    !!@!!!
+!!:  !!!  !!: :!!   !!:     !!:     !!:  !!!  !!:  !!!  !!: :!!   !!:  !!!  !!:            !:!       !:!
+:!:  !:!  :!:  !:!  :!:     :!:     :!:  !:!  :!:  !:!  :!:  !:!  :!:  !:!  :!:           !:!       !:!
+::   :::  ::   :::  :::     ::      ::   :::  ::   :::  ::   :::   ::   ::   :: ::::  :::: ::   :::: ::
+ :   : :   :   : :   :      :        :   : :   :   : :   :   : :  ::    :   : :: ::   :: : :    :: : :
+```
+
 [![skills.sh](https://skills.sh/b/armcompany/arm-coding-worker-skill)](https://skills.sh/armcompany/arm-coding-worker-skill)
 
 Autonomous software engineering skill for coding agents. Delivers verified repository changes as an autonomous software engineer — works standalone from sufficient task context or as the execution specialist beneath ARM Harness.
