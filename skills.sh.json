@@ -1,0 +1,11 @@
+{
+  "$schema": "https://skills.sh/schemas/skills.sh.schema.json",
+  "notGrouped": "bottom",
+  "groupings": [
+    {
+      "title": "Agent Workflows",
+      "description": "Skills for autonomous coding agents and engineering workflows.",
+      "skills": ["arm-coding-worker"]
+    }
+  ]
+}
