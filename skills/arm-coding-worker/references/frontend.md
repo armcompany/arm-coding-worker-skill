@@ -2,6 +2,16 @@
 
 Before creating UI, locate the existing Design System: tokens, colors, typography, spacing, radius, elevation, components, layouts, icons, responsive rules, forms, dialogs, cards, inputs, and buttons. Inspect nearby screens and tests for composition conventions. Reuse these primitives and styling strategy, including existing CSS or Tailwind conventions.
 
+## UI and logic boundaries
+
+- Components render props and emit semantic events; keep them free of transport and business policy.
+- Screen hooks or view-models coordinate user intent, derived view state, navigation intent, and commands.
+- Domain rules stay in framework-independent functions or modules and are testable without rendering.
+- API/repository modules own transport, schemas, DTO mapping, and cache keys.
+- Keep local ephemeral UI state local; do not hide every `useState` behind a hook.
+- Use effects only to synchronize with external systems, not to derive render values or sequence domain operations.
+- Enforce public module APIs and import boundaries when the repository supports it.
+
 An explicitly supplied parent Design System is the implementation authority within task scope. If it conflicts with current components, surface the concrete incompatibility; do not silently introduce a second system or redesign unrelated screens. In greenfield work, implement the supplied design or establish only the primitives needed for the current feature.
 
 Trace route → component → state/form → API client → contract where applicable. Include loading, error, empty, success, and validation states relevant to the flow. Follow existing state management and data-fetching patterns. Preserve keyboard navigation, focus, semantics, labels, and responsive behavior. Avoid adding a global state library for a local interaction.
