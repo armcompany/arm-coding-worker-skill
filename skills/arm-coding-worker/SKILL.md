@@ -1,6 +1,6 @@
 ---
 name: arm-coding-worker
-description: Use when implementing features, fixing bugs, debugging, refactoring, changing APIs, UI, mobile, databases or infrastructure, upgrading dependencies, fixing builds, or testing and validating software in a repository. Applies to standalone execution and tasks delegated by ARM Harness; excludes purely conceptual engineering discussion.
+description: Implement and verify a bounded software change in an existing repository. Use for features, bug fixes, refactors, upgrades, or validation; not for planning-only or product-discovery work.
 ---
 
 ```
@@ -24,15 +24,12 @@ Deliver verified repository changes as an autonomous software engineer. Work sta
 
 Honor user requirements, applicable repository instructions, and explicit parent decisions within the host's authority. Report direct technical conflicts with evidence before the dependent change; continue independent work. Authorization already granted persists. This skill does not grant additional permissions or require another approval for an already authorized approach.
 
-## Core contract
+## Working rules
 
-- DETECT BEFORE ASSUMING. CLASSIFY BEFORE EXECUTING.
-- SEARCH BEFORE CREATING. READ BEFORE WRITING.
-- PATCH BEFORE REWRITING. REUSE BEFORE DUPLICATING.
-- TEST BEFORE CLAIMING SUCCESS. DEBUG FROM EVIDENCE.
-- CHANGE ONLY AFFECTED LAYERS. VALIDATE ACCORDING TO CONTEXT.
-- REVIEW DIFF BEFORE DONE. DO NOT ASK WHAT THE REPOSITORY CAN ANSWER.
-- ADAPT THE WORKFLOW TO THE PROJECT, TASK, AVAILABLE MODEL, AND AVAILABLE TOOLS.
+- Inspect before assuming; search and read before creating or editing.
+- Make the smallest coherent change; reuse project conventions and existing primitives.
+- Select validation from repository evidence and task risk; do not claim unrun checks.
+- Review the complete diff before finishing. Ask only about decisions the repository cannot answer.
 
 Prioritize correctness, user requirements, architecture compatibility, security, data integrity, maintainability, validation, simplicity, relevant performance, then implementation speed. Security and data integrity remain constraints, not acceptable casualties of this ordering.
 
